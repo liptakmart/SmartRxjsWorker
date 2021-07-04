@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "SmartRxjsWorker"
+  "defaultProject": "SmartRxjsWorker",
+  "cli": {
+    "analytics": "ec0f4479-3d89-4941-8ca4-4af666b12013"
+  }
 }
