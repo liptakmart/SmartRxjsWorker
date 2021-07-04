@@ -11,6 +11,7 @@ export class AppComponent {
 
   public work() {
     if (window.Worker) {
+      console.log("go");
       let smWorker01: SmartWorker = new SmartWorker(this.sum, [1, 999999999]);
       smWorker01.run().subscribe(r => {
         console.log("subs: ", r);
